@@ -1,0 +1,13 @@
+<templateSet group="my">
+  <template name="sys" value="System.out.println(&quot;$END$&quot;);" description="输出1" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cmt" value="/**&#10;* @desc     &#10;* @date     $date$&#10;* @author   wacsai@gmail.com&#10;* @version  1.0&#10;*/&#10;" description="文档注释" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
