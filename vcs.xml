@@ -6,6 +6,10 @@
           <option name="url" value="https://gitee.com/mulfy/JrebelLicenseServerforJava.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/apidoc/apidoc.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="/Volumes/Data/code/java" />
