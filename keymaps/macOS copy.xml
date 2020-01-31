@@ -76,6 +76,10 @@
   <action id="ProjectViewEditSource">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="f13" />
+  </action>
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
