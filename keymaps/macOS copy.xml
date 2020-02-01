@@ -3,8 +3,16 @@
   <action id="ActivateProjectToolWindow" />
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
+  <action id="ChangesView.AddUnversioned">
+    <keyboard-shortcut first-keystroke="meta alt a" />
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="meta k" />
+    <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -18,10 +26,6 @@
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
   <action id="DatabaseView.CopyTable" />
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="ctrl d" />
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Debugger.EditFrameSource">
@@ -83,9 +87,7 @@
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="f3" />
-  </action>
+  <action id="Run" />
   <action id="RunDashboard.Run">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
@@ -98,14 +100,16 @@
   <action id="Sql.EditParameter">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
-  <action id="Stop">
-    <keyboard-shortcut first-keystroke="f2" />
-  </action>
+  <action id="Stop" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource">
